@@ -1,0 +1,4 @@
+Flask
+pdfplumber
+gTTSg
+gunicorn
