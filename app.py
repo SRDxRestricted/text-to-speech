@@ -47,7 +47,7 @@ def convert():
     # Send audio file to user
     return send_file(audio_path, as_attachment=True)
 
-if "_name" == "main_":
-    app.run(host = '0.0.0.0', debug=True)
+if __name__ == "main_":
+    app.run(host = '0.0.0.0',port = 5000, debug=True)
 
 
